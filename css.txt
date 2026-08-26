@@ -116,5 +116,36 @@
   .css-3nlpdq {
     display: none;
   }
+
+  .pp-uc-background::before {
+    content: '🌟 Добро пожаловать в мой профиль!' !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 60px !important;
+    background: linear-gradient(135deg, rgba(233, 69, 96, 0.8), rgba(15, 52, 96, 0.8)) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    border-radius: 16px !important;
+    margin: 20px !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 0 !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3) !important;
+}
+
+/* Поднимаем содержимое поверх */
+.profile-page-background > * {
+    position: relative !important;
+    z-index: 1 !important;
+}
   
 </style>
+
+<div class = "profile-page-flex ">dddd</div>
+
