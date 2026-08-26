@@ -149,3 +149,184 @@
 
 <div class = "profile-page-flex ">dddd</div>
 
+2 ВЕРСИЯ
+
+<style> 
+ /* бэкграунд затемнение*/
+  .pp-page-background::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: rgba(23, 12, 12, 0.65);
+
+    z-index: 1;
+    pointer-events: none;
+}
+  
+ /* блок с никнеймом */
+ .pp-uc-background {
+    position: relative !important;
+    top: 20px;
+   
+    min-width: 80% !important;
+    max-width: 99% !important;
+   
+}
+
+    /* убирает глянцевый фон из блока с никнеймом */
+  .profile-background-box-1,
+  .profile-background-box-2,
+  .profile-background-box-3 {
+    display: none;
+  }
+
+  /* убирает фон из блока с никнеймом */
+  .profile-uc-background {
+    background: none;
+    box-shadow: none !important;
+  }
+
+ 
+   .profile-info-hstack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+     
+  }
+
+  /* убирает блоки с позиций */
+  .profile-page-container,
+  .profile-uc-background-flex,
+  .profile-info-stack,
+  .profile-about-me {
+    margin: 0 !important;
+    padding: 0 !important;
+    gap: 0;
+  }
+   
+  .profile-page-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+   /* убрала аватарку*/
+  .css-79elbk {
+    display: none !important;
+  }
+
+  /* сделала блок с никнеймом в линию */
+  .css-11jxqc6 {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 130px !important;
+    justify-content: space-around !important; 
+  }
+
+  /* стиль для блока с информацией */
+  .css-15vqpxh {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(25, 6, 6, 0.15) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important; 
+    border: 1px solid rgba(77, 20, 20, 0.2) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2) !important;
+               }
+/* убрала лишний margin у блока никнейма*/
+  .css-lbyqo2 {
+    margin-right: 0px; 
+  }
+
+  /* никнейм фонт*/
+  .css-18242y1 {
+    font-family: 'Playfair Display', serif !important;
+  }
+  
+/* количество фоловеров фонт*/
+  .css-tj1bag {
+    font-family: 'Playfair Display', serif !important;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+  }
+
+  /* Member Since фонт*/
+  .css-16mo0z4 {
+    font-family: 'Playfair Display', serif !important;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+  }
+
+    /* убрала кнопку из блока никнейма*/
+  .profile-info-stack-inner button {
+    display: none;
+  }
+
+  /* убрала лишний блок из блока никнейма*/
+  .css-3nlpdq {
+    display: none;
+  }
+
+/* ========================================
+   BANNER BETWEEN USER CARD AND CHARACTERS
+   ======================================== */
+
+.profile-page-container-flex-box {
+    position: relative !important;
+}
+
+.profile-about-me {
+    position: absolute !important;
+
+    top: 100px;
+    left: 0;
+    display: block;
+
+    width: 30% !important;
+    height: 300px;
+}
+
+.my-banner {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.banner-image {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.banner-frame {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: fill;
+
+    pointer-events: none;
+}
+
+#profile-tabs {    
+  margin-top: 1000px !important;
+}
+  
+</style>
+
+<div class="my-banner">
+  <img class="banner-image" src="https://ella.janitorai.com/media-approved/cuGuhCj9fTH9W5thWhVbc.webp">
+  <img class="banner-frame" >
+</div>
