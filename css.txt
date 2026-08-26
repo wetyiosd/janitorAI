@@ -1,5 +1,5 @@
 <style> 
-бэкграунд
+  
   .css-16tuifp {    
     background-size: cover !important;
     background-position: center !important;
@@ -12,33 +12,21 @@
 
  .pp-uc-background {
     position: relative !important;
-    left: 300px !important;
-    top: 50px;
-    height: 500px;
-    min-width: 800px !important;
-    max-width: 800px !important;
-   
-}
-  
-
- .pp-uc-background {
-    position: relative !important;
-    left: 300px !important;
-    top: 50px;
-    height: 500px;
-    min-width: 800px !important;
-    max-width: 800px !important;
+    top: 20px;
+    height: 600px;
+    min-width: 1400px !important;
+    max-width: 1550px !important;
    
 }
 
-   /* removes glittery default background */
+   
   .profile-background-box-1,
   .profile-background-box-2,
   .profile-background-box-3 {
     display: none;
   }
 
-  /* removes the background of the main user card */
+  
   .profile-uc-background {
     background: none;
     box-shadow: none !important;
@@ -70,4 +58,63 @@
     gap: 10px;
     
   }
+  .css-79elbk {
+    display: none !important;
+  }
+
+  .css-11jxqc6 {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 130px !important;
+    justify-content: space-around !important; 
+
+  }
+/* блок большой */
+  .css-15vqpxh {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(25, 6, 6, 0.15) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important; /* Для Safari */
+    border: 1px solid rgba(77, 20, 20, 0.2) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2) !important;
+               }
+
+  .css-lbyqo2 {
+    margin-right: 0px; 
+  }
+/* никнейм */
+  .css-18242y1 {
+    font-family: 'Playfair Display', serif !important;
+  }
+  
+/* followers */
+  .css-tj1bag {
+    font-family: 'Playfair Display', serif !important;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+  }
+
+  /* Member */
+  .css-16mo0z4 {
+    font-family: 'Playfair Display', serif !important;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+  }
+
+    /* кнопка изменения профиля */
+  ._btn_1fl1d_2 {
+        display: none;
+  }
+
+  /* какой-то ноунэйм блок под никлнеймом */
+  .css-3nlpdq {
+    display: none;
+  }
+  
 </style>
